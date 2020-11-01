@@ -1,0 +1,201 @@
+body {
+  background-color: #d0d0d0;
+}
+
+
+/*the code below is the styling for the header*/
+#header {
+  max-width: 100%;
+  display: flex;
+}
+
+
+/*nav-bar styling*/
+#nav-bar {
+  position: fixed;
+  background-color: #262626;
+  width: 100%;
+  overflow: auto;
+  top: 0;
+  margin-left: 0px;
+  height: 85px;
+}
+/*logo( header img) styling*/
+#header-img {
+  width: 90px;
+  height: 85px;
+  position: fixed;
+  top: 0px;
+  border-radius: 50%;
+}
+/*logo img hover transform*/
+#header-img:hover {
+  transform: scale(2, 2);
+}
+/*code below  is the styling for nav-link*/
+.nav-link {
+ float:left;
+  padding: 13px 150px 13px 150px;
+  color: orange;
+  text-decoration: none;
+  font-size: 19px;
+  justify-content: space-around;
+}
+#nav-bar ul {
+  list-style: none;
+}
+/*hover styling makes nav elemets change property when user hovers over them*/
+a:hover {
+  color: #ffddee;
+}
+/*end of navigation styling*/
+
+/*external link hover styling*/
+.link:hover {
+  color: #0078be;
+}
+
+/* form stayling*/
+#form {
+  color: black;
+  font-size: 12px;
+  background-color: #d0d0d0;
+  text-align: center;
+}
+/*styling the email input */
+#email {
+  font-size: 20px;
+  color: black;
+}
+/* styling the email address input */
+#emailaddress {
+  font-size: 19px;
+}
+/*submit id styling*/
+#submit {
+  font-size: 17px;
+  background-color: yellow;
+}
+/*end of form styling*/
+
+/*styling the h1(our title) */
+h1 {
+  text-align: center;
+  font-size: 85px;
+  font-family: "Tangerine", serif;
+  margin-top: 118.5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/*main img styling */
+#afro {
+  height: 450px;
+  width: 100%;
+  display: grid;
+  margin-top: 10px;
+}
+/*end of image styling*/
+
+/*start of ourservices section stayling*/
+#ourservices h3 {
+  text-align: left;
+  font-style: italic;
+  font-size: 35px;
+}
+#ourservices h4 {
+  font-size: 28px;
+  text-align: center;
+  font-style: italic;
+  background-color: #808080;
+}
+#ourservices p {
+  font-size: 19px;
+}
+.link{
+  text-decoration:none;
+}
+/*end of ourservices stayling*/
+
+
+/*start of visit us stayling*/
+#visitus h4 {
+  font-size: 28px;
+  font-style: italic;
+  text-align: center;
+}
+#visitus ul {
+  text-align: center;
+  color: black;
+  list-style: none;
+}
+#visitus h3 {
+  text-align: center;
+}
+#visitus p {
+  text-align: center;
+}
+#googleimgbirmingham {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#googleimglondon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/*end of visit us section*/
+
+/*start of stayling choices for the testimonials section*/
+#testimonials p {
+  font-size: 20px;
+  text-align: justify;
+}
+#testimonials h3 {
+  text-align: left;
+  font-size: 25px;
+}
+#testimonials h2 {
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+  background-color: #808080;
+}
+/*start our video styling*/
+#video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* end of video stayling */
+
+/*start of footer stayling*/
+#footer {
+  background-color: #242424;
+}
+#footer a {
+  color: orange;
+  display: flex;
+  text-align: center;
+}
+#footer ul {
+  justify-content: space-around;
+  list-style-type: none;
+  display: flex;
+  color: orange;
+}
+@media screen and (max-width: 600px) {
+  footer {
+    height: 50px;
+    width: 100%;
+    font-size: 12px;
+    display: block;
+  }
+}
+/*end of footer stayling*/
